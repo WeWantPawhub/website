@@ -4,6 +4,8 @@ import { Box, Stack, Typography } from "@mui/material";
 import { fetchFromAPI } from "../utils/fetchFromAPI";
 import { Videos, Sidebar } from "./";
 
+import { primaryColor } from "../utils/constants";
+
 const Feed = () => {
   const [selectedCategory, setSelectedCategory] = useState("New");
   const [videos, setVideos] = useState(null);
@@ -27,7 +29,7 @@ const Feed = () => {
 
       <Box p={2} sx={{ overflowY: "auto", height: "90vh", flex: 2 }}>
         <Typography variant="h4" fontWeight="bold" mb={2} sx={{ color: "white" }}>
-          {selectedCategory} <span style={{ color: "#FC1503" }}>videos</span>
+          {selectedCategory} <span style={{ color: primaryColor }}>videos</span>
         </Typography>
 
         <Videos videos={videos} />
