@@ -8,7 +8,7 @@ import SchoolIcon from '@mui/icons-material/School';
 import GraphicEqIcon from '@mui/icons-material/GraphicEq';
 import FitnessCenterIcon from '@mui/icons-material/FitnessCenter';
 import DeveloperModeIcon from '@mui/icons-material/DeveloperMode';
-import {CatchingPokemon, Pets} from "@mui/icons-material";
+import {Pets} from "@mui/icons-material";
 
 
 export const logo = './pawhub_logo.png';
